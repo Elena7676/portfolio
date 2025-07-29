@@ -168,15 +168,12 @@ img {
     justify-content: space-between;
     align-items: flex-end;
 }
-.skills {
-    display: flex;
-    flex-direction: column;
-}
+
 .skills-list {
     display: flex;
-    width: 220px;
+    width: 300px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 .skills__title {
     font-size: 25px;
@@ -194,7 +191,7 @@ img {
     color: #ff5151;
 }
 .skills-item {
-    width: 35px;
+    width: 30px;
 }
 .skills-gsap {
     font-size: 12px;
@@ -323,11 +320,8 @@ img {
     .item__link {
         font-size: 25px;
     }
-    .skills-wrapper {
-        width: 496px;
-    }
     .media320 {
-        width: 180px;
+        width: 150px;
     }
 }
 
@@ -394,7 +388,6 @@ img {
     }
     .media320 {
         display: flex;
-        width: 290px;
         justify-content: space-between;
         margin-bottom: 15px;
     }
